@@ -1,0 +1,45 @@
+.main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vw;
+}
+
+/* commentaire d'une ligne */
+
+.titre, .paragraphe, .carte-description {
+    font-family: DM Sans;
+    background-color: #272727;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.titre {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.paragraphe {
+    margin-top: 40px;
+    font-size: 15px
+}
+
+.carte {
+    overflow: hidden;
+    margin-top: 3vw;
+}
+
+.carte, .carte-image, .carte-description {
+    width: 37vw;
+}
+
+.carte-image {
+    /* https://stackoverflow.com/questions/7774814/remove-white-space-below-image */
+    display: block;
+}
+
+.galerie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
