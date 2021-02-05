@@ -1,0 +1,56 @@
+.main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vw;
+    background-color: white;
+}
+
+.paragraphe {
+    margin-top: 20px;
+    background-color:aqua;
+    padding: 10px;
+    color:white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.titre {
+    display: inline-block;
+    background-color:bisque;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.titre,.paragraphe, .cartedescription {
+    font-family: 'Sriracha', cursive;
+   background-color:black;
+    color: white;
+}
+
+.carte,.carte-image,.cartedescritpion {
+    width: 37vw;
+}
+
+.carte {
+    overflow: hidden
+}
+
+.carte-image {
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cartedescription {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
