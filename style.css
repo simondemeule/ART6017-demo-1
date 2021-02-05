@@ -6,7 +6,7 @@
 
 /* commentaire d'une ligne */
 
-.titre, .paragraphe, .carte-description {
+.titre, .paragraphe, .carte-description, .navigation-boutton {
     font-family: DM Sans;
     background-color: #1c0d8d;
     padding: 10px;
@@ -42,4 +42,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.navigation-groupe {
+    margin-top: 40px;
 }
